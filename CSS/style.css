@@ -44,12 +44,14 @@ body{
     font-size: 20px;
     padding: 10px;
     border-radius: 20px;
-    transition: 0.1s ease-out;
+    transition: box-shadow 0.1s ease-out;
 }
 
 .cabecalho_link:hover{
+    transition: 0.1s ease-in;
+    background: var(--cor-6);
     box-shadow: 0px 0px 10px 5px var(--cor-6);
-    transition: 0.1s ease-in
+    
 }
 
 .apresentacao{
@@ -65,10 +67,14 @@ body{
 }
 
 .apresentacao_conteudo{
-    width: 615px;
+    width: 620px;
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.apresentacao_titulo{
+    font-size: 40px;
 }
 
 .btn{
@@ -84,7 +90,6 @@ body{
     transition: 0.1s ease-out;
 }
 
-
 .apresentacao_redes img{
     width: 2.5rem;
     transition: 0.1s ease-in-out;
@@ -93,6 +98,7 @@ body{
 }
 
 .apresentacao_redes img:hover{
+    background: var(--cor-6);
     box-shadow: 0px 0px 10px 5px var(--cor-6);
     transition: 0.1s ease-in;
 }
@@ -100,7 +106,7 @@ body{
 .eu{
     width: 30rem;
     border-radius: 50%;
-    border: solid var(--cor-7) 3px;
+    border: solid var(--cor-6) 3px;
     padding: 10px;
 }
 

@@ -1,0 +1,25 @@
+.apresentacao2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 5%;
+    color: var(--cor-7);
+}
+
+.apresentacao_conteudo2{
+    background: linear-gradient(to bottom, var(--cor-2), var(--cor-5)) fixed;
+    border: solid black 2px;
+    border-radius: 30px;
+    padding: 13px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.eu2{
+    width: 450px;
+    border: solid var(--cor-6) 3px;
+    border-radius: 100%;
+    padding: 10px;
+}
