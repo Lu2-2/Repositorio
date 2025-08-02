@@ -1,0 +1,14 @@
+.main_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: inline-block;
+    width: 48%;
+    background: white;
+    border: solid black 2px;
+    border-radius: 10px;
+}
