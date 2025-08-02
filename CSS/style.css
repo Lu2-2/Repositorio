@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    /* Fontes */
+    --font-1: 'Open+Sans', sans-serif;
+
+    /* Cores */
+    --cor-1: #000b18;
+    --cor-2: #00172d;
+    --cor-3: #00264d;
+    --cor-4: #02386e;
+    --cor-5: #00498d;
+    --cor-6: #0052a2;
+    --cor-7: #CCD0CF;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    max-height: 100vh;
+    font-family: var(--font-1);
+    background: linear-gradient(to bottom, var(--cor-1), var(--cor-3)) fixed;
+    box-sizing: border-box;
+}
+
+.cabecalho_menu{
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    padding: 2% 0% 0% 10%;
+    gap: 50px;
+}
+
+.cabecalho_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-7);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.1s ease-out;
+}
+
+.cabecalho_link:hover{
+    box-shadow: 0px 0px 10px 5px var(--cor-6);
+    transition: 0.1s ease-in
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 5%;
+    color: var(--cor-7);
+}
+
+.ap_destaque{
+    color: var(--cor-6);
+}
+
+.apresentacao_conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.btn{
+    color: var(--cor-7);
+    box-shadow: 0px 0px 10px 5px var(--cor-6);
+    background: var(--cor-6);
+    border: none;
+    border-radius: 15px;
+    width: 10rem;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 600;
+    transition: 0.1s ease-out;
+}
+
+
+.apresentacao_redes img{
+    width: 2.5rem;
+    transition: 0.1s ease-in-out;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.apresentacao_redes img:hover{
+    box-shadow: 0px 0px 10px 5px var(--cor-6);
+    transition: 0.1s ease-in;
+}
+
+.eu{
+    width: 30rem;
+    border-radius: 50%;
+    border: solid var(--cor-7) 3px;
+    padding: 10px;
+}
+
+.rodape{
+    background: var(--cor-1);
+    color: var(--cor-7);
+    padding: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
